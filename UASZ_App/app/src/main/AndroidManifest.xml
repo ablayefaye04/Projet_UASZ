@@ -13,6 +13,24 @@
         android:theme="@style/Theme.UASZ_App"
         tools:targetApi="31">
         <activity
+            android:name=".SixiemeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CinquiemeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuatriemeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TroisiemeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeuxiemeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PremierActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
